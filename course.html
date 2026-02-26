@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Курс — в разработке</title>
+  <meta name="description" content="Курс по кодингу находится в разработке. Следите за обновлениями в Telegram." />
+
+  <style>
+    :root {
+      --bg: #0e0e0e;
+      --text: #ffffff;
+      --muted: #a1a1a1;
+      --accent: #d9ff00;
+      --telega: #24A1DE;
+      --radius: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .wrap {
+      max-width: 480px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: clamp(48px, 10vw, 96px);
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      margin-bottom: 16px;
+    }
+
+    p {
+      font-size: 16px;
+      color: var(--muted);
+      margin-bottom: 32px;
+      line-height: 1.5;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 14px 24px;
+      border-radius: var(--radius);
+      background: var(--telega);
+      color: #000;
+      font-weight: 500;
+      text-decoration: none;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    a.button:hover {
+      transform: translateY(-2px);
+      opacity: 0.9;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <h1>SOON…</h1>
+    <p>Курс на данный момент в разработке</p>
+    <a
+      class="button"
+      href="https://t.me/osxflow"
+      target="_blank"
+      rel="noopener"
+    >
+      Следить в Telegram-канале
+    </a>
+  </div>
+</body>
+</html>
